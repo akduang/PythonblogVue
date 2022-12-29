@@ -13,4 +13,5 @@ title 不是 tittle title title title
 Django管理后台(Admin)入门
 https://pythondjango.cn/django/basics/11-admin/
 
-1111
+Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
+https://blog.csdn.net/weixin_43945983/article/details/110882074
