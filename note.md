@@ -20,3 +20,5 @@ https://www.cnblogs.com/daviddd/p/12275231.html
 Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
 https://blog.csdn.net/weixin_43945983/article/details/110882074
 >>>>>>> 7404dc8f1acba490219ec83f49b0869c2c4cebc0
+
+1111
