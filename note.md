@@ -13,12 +13,10 @@ title 不是 tittle title title title
 Django管理后台(Admin)入门
 https://pythondjango.cn/django/basics/11-admin/
 
-<<<<<<< HEAD
 序列化
 https://www.cnblogs.com/daviddd/p/12275231.html
-=======
 Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
 https://blog.csdn.net/weixin_43945983/article/details/110882074
->>>>>>> 7404dc8f1acba490219ec83f49b0869c2c4cebc0
 
-1111
+【Git】pull 分支报错 fatal: Need to specify how to reconcile divergent branches...
+https://blog.csdn.net/qq_45677671/article/details/122574671
