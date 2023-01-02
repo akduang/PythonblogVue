@@ -26,3 +26,8 @@ class ArticleListSerializer(serializers.ModelSerializer):
 # 自动推断需要序列化的字段及类型
 # 提供对字段数据的验证器的默认实现
 # 提供了修改数据需要用到的 .create() 、 .update() 方法的默认实现
+class ArticleDetailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Article
+        fields = '__all__'
+
