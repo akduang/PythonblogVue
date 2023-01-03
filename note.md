@@ -20,3 +20,6 @@ https://blog.csdn.net/weixin_43945983/article/details/110882074
 
 【Git】pull 分支报错 fatal: Need to specify how to reconcile divergent branches...
 https://blog.csdn.net/qq_45677671/article/details/122574671
+
+dir
+https://blog.51cto.com/lanzao/4991837
