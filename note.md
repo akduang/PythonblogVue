@@ -17,6 +17,7 @@ https://pythondjango.cn/django/basics/11-admin/
 https://www.cnblogs.com/daviddd/p/12275231.html
 Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
 https://blog.csdn.net/weixin_43945983/article/details/110882074
+git config --global http.sslVerify "false"
 
 【Git】pull 分支报错 fatal: Need to specify how to reconcile divergent branches...
 https://blog.csdn.net/qq_45677671/article/details/122574671
