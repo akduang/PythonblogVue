@@ -74,7 +74,7 @@ class ArticleDetail(generics.RetrieveUpdateDestroyAPIView):
 class ArticleList(generics.ListCreateAPIView):
     queryset = Article.objects.all()
     serializer_class = ArticleListSerializer
-    permission_classes = [IsAdminUser]
+    # permission_classes = [IsAdminUser]
           
 @api_view(['GET', 'POST'])
 def article_list(request):
