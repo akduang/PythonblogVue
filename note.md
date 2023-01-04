@@ -24,3 +24,6 @@ https://blog.csdn.net/qq_45677671/article/details/122574671
 
 dir
 https://blog.51cto.com/lanzao/4991837
+
+> git pull --tags origin main
+fatal: unable to access 'https://github.com/akduang/PythonblogVue.git/': Failed to connect to github.com port 443 after 21100 ms: Timed out
