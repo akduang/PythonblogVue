@@ -28,7 +28,5 @@ https://blog.51cto.com/lanzao/4991837
 网络不行
 > git pull --tags origin main
 fatal: unable to access 'https://github.com/akduang/PythonblogVue.git/': Failed to connect to github.com port 443 after 21100 ms: Timed out
-
-测试是否成功
 git ssh
 https://www.cnblogs.com/Gent-Wang/p/7422433.html
