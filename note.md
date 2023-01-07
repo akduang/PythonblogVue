@@ -32,3 +32,5 @@ fatal: unable to access 'https://github.com/akduang/PythonblogVue.git/': Failed 
 
 git ssh
 https://www.cnblogs.com/Gent-Wang/p/7422433.html
+
+test mac ssh
