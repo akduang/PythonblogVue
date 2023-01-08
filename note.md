@@ -33,6 +33,6 @@ fatal: unable to access 'https://github.com/akduang/PythonblogVue.git/': Failed 
 git ssh
 https://www.cnblogs.com/Gent-Wang/p/7422433.html
 
-test mac ssh
-
-test vpn
+vscode也需要对应的设置
+1. vscode改变克隆方式为ssh
+2. 仓库地址改为ssh方式的地址
