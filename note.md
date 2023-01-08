@@ -36,4 +36,4 @@ https://www.cnblogs.com/Gent-Wang/p/7422433.html
 vscode也需要对应的设置
 1. vscode改变克隆方式为ssh
 2. 仓库地址改为ssh方式的地址
-
+手动拉取
