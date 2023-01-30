@@ -4,8 +4,6 @@ from django.http import JsonResponse
 from django.http import Http404
 
 from article.models import Article
-from article.serializers import ArticleListSerializer
-from article.serializers import ArticleDetailSerializer
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
