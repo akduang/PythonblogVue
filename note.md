@@ -15,8 +15,10 @@ https://pythondjango.cn/django/basics/11-admin/
 
 序列化
 https://www.cnblogs.com/daviddd/p/12275231.html
-Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
+
+Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 
 https://blog.csdn.net/weixin_43945983/article/details/110882074
+
 git config --global http.sslVerify "false"
 
 【Git】pull 分支报错 fatal: Need to specify how to reconcile divergent branches...
