@@ -48,3 +48,7 @@ https://blog.csdn.net/Lin_Hv/article/details/105842899
 
 mdn的教程更简明更直观，有时间复习一下
 https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Django/Authentication
+
+Django: 503 Service Unavailable
+https://stackoverflow.com/questions/20747840/django-503-service-unavailable
+vpn的问题，关了就行

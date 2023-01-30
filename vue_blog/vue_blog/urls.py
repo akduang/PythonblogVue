@@ -22,7 +22,7 @@ from article import views
 router = DefaultRouter()
 router.register(r'article', views.ArticleViewSet)
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     # #登录接口
     # path('api-auth/', include('rest_framework.urls')),
     # #序列化函数
