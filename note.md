@@ -42,3 +42,6 @@ vscode也需要对应的设置
 
 restful
 https://www.ruanyifeng.com/blog/2011/09/restful.html
+
+解决Windows下PowerShell无法进入Python虚拟环境
+https://blog.csdn.net/Lin_Hv/article/details/105842899
