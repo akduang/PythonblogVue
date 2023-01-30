@@ -45,3 +45,6 @@ https://www.ruanyifeng.com/blog/2011/09/restful.html
 
 解决Windows下PowerShell无法进入Python虚拟环境
 https://blog.csdn.net/Lin_Hv/article/details/105842899
+
+mdn的教程更简明更直观，有时间复习一下
+https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Django/Authentication

@@ -20,6 +20,8 @@ class Article(models.Model):
         on_delete=models.CASCADE, 
         related_name='articles'
     )
+    class Meta:
+        ordering = ['-created']
 
     def __str__(self):
         return self.title
