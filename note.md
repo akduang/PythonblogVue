@@ -38,4 +38,5 @@ vscode也需要对应的设置
 2. 仓库地址改为ssh方式的地址
 手动拉取
 
-ssh
+restful
+https://www.ruanyifeng.com/blog/2011/09/restful.html
