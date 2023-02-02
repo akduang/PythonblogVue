@@ -11,3 +11,6 @@ dir /b
 
 git ssh
 https://www.cnblogs.com/Gent-Wang/p/7422433.html
+
+python manage.py makemigrations
+python manage.py migrate

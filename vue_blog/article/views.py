@@ -12,18 +12,26 @@ from rest_framework.views import APIView
 from rest_framework import mixins
 from rest_framework import generics
 from article.permissions import IsAdminUserOrReadOnly
+from rest_framework import filters
 
 from rest_framework import viewsets
 from article.serializers import ArticleSerializer
+from article.models import Category
+from article.serializers import CategorySerializer
 
 class ArticleViewSet(viewsets.ModelViewSet):
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
     permission_classes = [IsAdminUserOrReadOnly]
-
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['title']
     def perform_create(self, serializer):
         serializer.save(author=self.request.user)
-
+class CategoryViewSet(viewsets.ModelViewSet):
+    """分类视图集"""
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+    permission_classes = [IsAdminUserOrReadOnly]
 # class ArticleDetail(generics.RetrieveUpdateDestroyAPIView):
 #     queryset = Article.objects.all()
 #     serializer_class = ArticleDetailSerializer

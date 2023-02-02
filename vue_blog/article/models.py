@@ -4,7 +4,19 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 # 博客文章 model
+
+class Category(models.Model):
+    """文章分类"""
+    title = models.CharField(max_length=100)
+    created = models.DateTimeField(default=timezone.now)
+
+    class Meta:
+        ordering = ['-created']
+
+    def __str__(self):
+        return self.title
 class Article(models.Model):
+    
     # 标题
     title = models.CharField(max_length=100)
     # 正文
@@ -18,6 +30,14 @@ class Article(models.Model):
         User, 
         null=True,
         on_delete=models.CASCADE, 
+        related_name='articles'
+    )
+    
+    category = models.ForeignKey(
+        Category,
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
         related_name='articles'
     )
     class Meta:
