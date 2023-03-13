@@ -57,3 +57,6 @@ vscode虚拟环境
 C:\Users\YYG\Desktop\BlogVue\PythonblogVue\env\Scripts> ./activate  
 
 drf表结构改变，不能忘了迁移数据库
+
+Connection reset by 140.82.114.3 port 22 fatal: Could not read from remote repository.
+产生这个问题的主要原因是网络的问题，导致push到github上失败，我们学校的网上github总是断断续续，时好时不好，我连着提交了三次，第三次提交就成功了，如果你也出现了这个问题，很大原因就是网络的问题，可以换个网或者多提交几次。
