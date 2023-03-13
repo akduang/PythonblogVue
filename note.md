@@ -52,3 +52,8 @@ https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Django/Authentication
 Django: 503 Service Unavailable
 https://stackoverflow.com/questions/20747840/django-503-service-unavailable
 vpn的问题，关了就行
+
+vscode虚拟环境
+C:\Users\YYG\Desktop\BlogVue\PythonblogVue\env\Scripts> ./activate  
+
+drf表结构改变，不能忘了迁移数据库

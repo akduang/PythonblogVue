@@ -20,7 +20,11 @@ from rest_framework.routers import DefaultRouter
 from article import views
 
 router = DefaultRouter()
+router.register(r'tag', views.TagViewSet)
 router.register(r'article', views.ArticleViewSet)
+router.register(r'category', views.CategoryViewSet)
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     # #登录接口
